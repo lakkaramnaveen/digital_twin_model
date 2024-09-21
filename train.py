@@ -7,7 +7,7 @@ import certifi
 # Set SSL context
 ssl._create_default_https_context = ssl.create_default_context(cafile=certifi.where())
 
-os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2" 
 
 import numpy as np
 import cv2
